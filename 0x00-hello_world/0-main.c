@@ -5,6 +5,6 @@
  */
  int main(void){
  	char $CFILE = "0-main.c";
-	printf("export CFILE=%s", CFILE);
+	printf("export CFILE=", CFILE);
 	return (0);
  }
